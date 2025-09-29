@@ -16,7 +16,7 @@ file_name = './data/raw/sara.txt'
 file_object = open(file_name,'r')
 
 #Read contents of file into a list
-line_list = file_object.readline()
+lineString = file_object.readline()
 #Iterate through lines
 while lineString != "":   
     #Check if line is a data line
